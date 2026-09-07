@@ -1,0 +1,43 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+# Squad: ignore runtime state (logs, inbox, sessions)
+# Note: .squad/casting/* is identity and MUST be committed to main, not ignored
+.squad/orchestration-log/
+.squad/log/
+.squad/decisions/inbox/
+.squad/sessions/
+.squad/.scratch/
+.squad/.cache/
+# Squad: SubSquad activation file (local to this machine)
+.squad-workstream

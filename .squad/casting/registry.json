@@ -1,0 +1,39 @@
+{
+  "agents": {
+    "lead": {
+      "persistent_name": "Lead",
+      "universe": "descriptive",
+      "created_at": "2026-09-07",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "orders": {
+      "persistent_name": "Orders",
+      "universe": "descriptive",
+      "created_at": "2026-09-07",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "inventory": {
+      "persistent_name": "Inventory",
+      "universe": "descriptive",
+      "created_at": "2026-09-07",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "data": {
+      "persistent_name": "Data",
+      "universe": "descriptive",
+      "created_at": "2026-09-07",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "tester": {
+      "persistent_name": "Tester",
+      "universe": "descriptive",
+      "created_at": "2026-09-07",
+      "legacy_named": false,
+      "status": "active"
+    }
+  }
+}
